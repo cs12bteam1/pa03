@@ -1,3 +1,3 @@
 # pa03
 
-pa03
+Programming assignment 3
