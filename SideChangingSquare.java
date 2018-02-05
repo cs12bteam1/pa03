@@ -15,7 +15,7 @@ public class SideChangingSquare extends CircleShape{
 	 */
   public SideChangingSquare(){
     super();
-		this.color = new java.awt.Color(200,200,100,100); // transparent blue
+		this.color = new Color(200,200,100,100); // transparent blue
   }
 
 	/**
