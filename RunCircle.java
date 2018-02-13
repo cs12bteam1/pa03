@@ -1,4 +1,4 @@
-package pa03real;
+package pa03;
 
 import java.awt.Color;
 import java.awt.Font;
