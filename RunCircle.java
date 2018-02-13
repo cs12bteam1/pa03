@@ -17,7 +17,7 @@ public class RunCircle extends CircleShape {
 	 * create a circle that has writing inside and changes color as well as radius
 	 */
 	public void RunCircle() {
-		super()
+		super();
 	}
 
 	/**d
