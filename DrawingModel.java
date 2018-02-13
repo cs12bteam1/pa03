@@ -35,8 +35,8 @@ public class DrawingModel {
 			c = new CircleShape();
 			this.add(c);
 
-      c = new RadiusChangingCircle();
-      this.add(c);
+                        c = new RadiusChangingCircle();
+                         this.add(c);
 
 			c = new GreenYellowCircles();
 			this.add(c);
@@ -45,6 +45,9 @@ public class DrawingModel {
 			this.add(c);
 
 			c = new SideChangingSquare();
+			this.add(c);
+			
+			c = new RunCircle();
 			this.add(c);
 
 
