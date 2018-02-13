@@ -16,7 +16,7 @@ public class RunCircle extends CircleShape {
 	/**
 	 * create a circle that has writing inside and changes color as well as radius
 	 */
-	public void RunCircle() {
+	public RunCircle() {
 		super();
 	}
 
@@ -39,12 +39,13 @@ public class RunCircle extends CircleShape {
 		int v = (int) (y - radius);
 		int w = (int) (2 * radius);
 		int h = w;
-		g.setColor(255,215,0,u);
+		Color myColor = new Color(255,215,0);
+		g.setColor(myColor);
 		g.fillRect(u/2,v/2,w/2,h/2);
 		g.setColor(Color.BLACK);
 		g.drawOval(u,v,w,h);
-		Font h = new Font("Helvetica", Font.BOLD, 20);
-		g.setFont(h);
+		Font f = new Font("Helvetica", Font.BOLD, 20);
+		g.setFont(f);
 		g.setColor(Color.WHITE);
 		g.drawString("RUN!", 495, 260);
 	}
