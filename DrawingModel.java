@@ -50,7 +50,8 @@ public class DrawingModel {
 			c = new RunCircle();
 			this.add(c);
 
-
+			c = new ZCircle();
+			this.add(c);
 
 		}
 	}
