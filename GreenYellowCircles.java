@@ -9,7 +9,6 @@ import java.awt.Graphics;
 public class GreenYellowCircles extends CircleShape{
 
   private int count=0;
-  private double vr = 1.0;
 
 	/**
 	 * create a radius changing circle and set the color to yellow
