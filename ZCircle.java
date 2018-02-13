@@ -6,6 +6,7 @@ public class ZCircle extends RadiusChangingCircle{
   //ZCircle is Zhaonan's Circle
 
   public Color c;
+  public int r,g,b;
 
   public ZCircle(){
     super();
@@ -13,9 +14,9 @@ public class ZCircle extends RadiusChangingCircle{
   }
 
   public void update(double dt){
-    int r = (int)(Math.random()*2);
-    int g = (int)(Math.random()*2);
-    int b = (int)(Math.random()*2);
+    r = (int)(Math.random()*2);
+    g = (int)(Math.random()*2);
+    b = (int)(Math.random()*2);
     int rc = (this.color.getRed() +  r) % 255;
     int gc = (this.color.getGreen() +  g) % 255;
     int bc = (this.color.getBlue() +  b) % 255;
